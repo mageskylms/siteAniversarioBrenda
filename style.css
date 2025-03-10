@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --font-titulos: "Whisper", cursive;
+    --font-weigth-titulos: 600;
+    --font-paragrafos: font-family: "Cardo", serif;
+    --font-weigth-paragrafos: 400;
+    --cinza: #332d2df3;
+}
+
+h1,
+h2,
+h3,
+p,
+img, div, section {
+    margin: 0;
+}
+
+.fundo1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("imagens/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.abertura {
+    min-height: 210px;
+}
+
+.abertura-container {
+    position: relative;
+}
+
+.img-abertura {
+    position: absolute;
+}
+
+.abertura-texto {
+    width: 150px;
+    top: 0px;
+    left: 112.5px;
+    z-index: -1;
+}
+
+.abertura-laço {
+    width: 200px;
+    top: 0px;
+    left: 87.5px;
+    z-index: -2;
+}
+
+.abertura-taça {
+    width: 130px;
+    top: 5px;
+    left: 0px;
+    z-index: -1;
+}
+
+.abertura-taça-2 {
+    width: 130px;
+    top: 40px;
+    right: 20px;
+    z-index: -1;
+}
+
+.botoes {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.botoes-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.botoes-item {
+    min-width: 60px;
+    min-height: 25px;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.infos {
+    position: relative;
+    text-align: center;
+    min-height: 220px;
+}
+
+.titulo-festa {
+    padding: 0 70px;
+    font-family: var(--font-titulos);
+    font-weight: var(--font-weigth-titulos);
+    font-size: 32px;
+}
+
+.infos h3 {
+    margin-top: 16px;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.infos .data {
+    font-family: "Montserrat", sans-serif;
+}
+
+.img-infos {
+    position: absolute;
+}
+
+.info-taça3 {
+    width: 120px;
+    top: 55px;
+    left: -20px;
+    z-index: -1;
+}
+
+.info-taca4 {
+    width: 120px;
+    top: 55px;
+    left: 255px;
+    z-index: -1;
+}
+
+.info-laco-preto {
+    width: 55px;
+    top: 155px;
+    left: 160px;
+    z-index: -1;
+}
+
+.tema {
+    position: relative;
+    text-align: center;
+    min-height: 260px;
+}
+
+.titulo-tema {
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-size: 40px;
+}
+
+.tema p {
+    font-family: var(--font-paragrafos);
+    font-weight: var(--font-weigth-paragrafos);
+    font-size: 16px;
+    padding: 0 35px;
+    color: var(--cinza);
+}
+
+.img-tema {
+    position: absolute;
+    width: 150px;
+    top: 150px;
+    left: -25px;
+    z-index: -1;
+}
+
+.traje {
+    position: relative;
+    text-align: center;
+    min-height: 250px;
+}
+
+.titulo-traje {
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-size: 40px;
+}
+
+.traje p {
+    margin-top: 10px;
+    font-family: var(--font-paragrafos);
+    font-weight: var(--font-weigth-paragrafos);
+    font-size: 16px;
+    padding: 0 50px;
+    color: var(--cinza);
+}
+
+.traje-vestido {
+    position: absolute;
+    width: 100px;
+    top: -60px;
+    left: 270px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.traje-vestido2 {
+    position: absolute;
+    width: 80px;
+    top: 150px;
+    left: 0px;
+    z-index: -1;
+}
+
+.traje-bota {
+    position: absolute;
+    width: 45px;
+    top: 85px;
+    left: 0px;
+    z-index: -1;
+}
+
+.traje-gravata {
+    position: absolute;
+    width: 100px;
+    top: 85px;
+    left: 280px;
+    z-index: -1;
+}
+
+.traje-laco-preto {
+    position: absolute;
+    width: 55px;
+    top: 180px;
+    left: 160px;
+    z-index: -1;
+}
+
+.bebida {
+    position: relative;
+    text-align: center;
+    min-height: 270px;
+}
+
+.titulo-bebida {
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-size: 40px;
+}
+
+.bebida p {
+    margin-top: 10px;
+    font-family: var(--font-paragrafos);
+    font-weight: var(--font-weigth-paragrafos);
+    font-size: 16px;
+    padding: 0 50px;
+    color: var(--cinza);
+}
+
+.bebida-taca {
+    position: absolute;
+    width: 80px;
+    top: -30px;
+    left: 280px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.bebida-tacas {
+    position: absolute;
+    width: 100px;
+    top: 125px;
+    left: -15px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.bebida-copo {
+    position: absolute;
+    width: 130px;
+    top: 125px;
+    left: 245px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.bebida-laco-preto {
+    position: absolute;
+    width: 55px;
+    top: 180px;
+    left: 160px;
+    z-index: -1;
+}
+
+.jogos{
+    position: relative;
+    text-align: center;
+    min-height: 250px;
+}
+
+.titulo-jogos {
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-size: 40px;
+}
+
+.jogos p {
+    margin-top: 10px;
+    font-family: var(--font-paragrafos);
+    font-weight: var(--font-weigth-paragrafos);
+    font-size: 16px;
+    padding: 0 50px;
+    color: var(--cinza);
+}
+
+.jogos-controle {
+    position: absolute;
+    width: 55px;
+    top: 0px;
+    left: 300px;
+    z-index: -1;
+}
+
+.jogos-piao {
+    position: absolute;
+    width: 40px;
+    top: 75px;
+    left: 15px;
+    z-index: -1;
+}
+
+.jogos-dados {
+    position: absolute;
+    width: 65px;
+    top: 150px;
+    left: 15px;
+    z-index: -1;
+}
+
+.jogos-cartas {
+    position: absolute;
+    width: 65px;
+    top: 120px;
+    left: 300px;
+    z-index: -1;
+}
+
+.jogos-laco-preto {
+    position: absolute;
+    width: 55px;
+    top: 180px;
+    left: 160px;
+    z-index: -1;
+}
+
+
+.local{
+    position: relative;
+    text-align: center;
+}
+
+.titulo-local {
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-size: 40px;
+}
+
+.local p {
+    margin-top: 10px;
+    font-family: var(--font-paragrafos);
+    font-weight: var(--font-weigth-paragrafos);
+    font-size: 16px;
+    padding: 0 35px;
+    color: var(--cinza);
+}
+
+.local-onibus {
+    position: absolute;
+    width: 80px;
+    top: 25px;
+    left: 0px;
+    z-index: -1;
+}
+
+.local-mapa {
+    position: absolute;
+    width: 60px;
+    top: -10px;
+    left: 280px;
+    z-index: -1;
+}
+
+.local-brilho {
+    position: absolute;
+    width: 80px;
+    top: -10px;
+    left: 260px;
+    z-index: -1;
+}
+
+.local-carro {
+    position: absolute;
+    width: 65px;
+    top: 65px;
+    left: 300px;
+    z-index: -1;
+}
+
+.local-laco-preto {
+    position: absolute;
+    width: 55px;
+    top: 180px;
+    left: 160px;
+    z-index: -1;
+}
+
+.mapa-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#mapa {
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+#local h2 {
+    text-align: center;
+    font-family: var(--font-titulos);
+    font-size: 40px;
+}
