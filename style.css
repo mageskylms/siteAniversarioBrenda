@@ -176,15 +176,15 @@ p {
 
 .info-brilho {
     width: 45vw;
-    top: 75%;
-    left: -3%;
+    top: 65%;
+    left: 4%;
     z-index: 3;
 }
 
 .info-brilho2 {
     width: 45vw;
-    top: 80%;
-    left: 53%;
+    top: 65%;
+    left: 50%;
     z-index: 3;
 }
 
@@ -223,16 +223,16 @@ p {
 }
 
 .tema-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
+    width: 45vw;
+    top: 65%;
+    left: 4%;
     z-index: 3;
 }
 
 .tema-brilho2 {
-    width: 50vw;
-    top: 80%;
-    left: 53%;
+    width: 45vw;
+    top: 65%;
+    left: 50%;
     z-index: 3;
 }
 
@@ -292,16 +292,16 @@ p {
 }
 
 .traje-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
+    width: 45vw;
+    top: 65%;
+    left: 4%;
     z-index: 3;
 }
 
 .traje-brilho2 {
-    width: 50vw;
-    top: 80%;
-    left: 53%;
+    width: 45vw;
+    top: 65%;
+    left: 50%;
     z-index: 3;
 }
 
@@ -355,16 +355,16 @@ p {
 }
 
 .bebida-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
+    width: 45vw;
+    top: 65%;
+    left: 4%;
     z-index: 3;
 }
 
 .bebida-brilho2 {
-    width: 50vw;
-    top: 80%;
-    left: 53%;
+    width: 45vw;
+    top: 65%;
+    left: 50%;
     z-index: 3;
 }
 
@@ -431,9 +431,16 @@ p {
 }
 
 .jogos-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
+    width: 45vw;
+    top: 65%;
+    left: 4%;
+    z-index: 3;
+}
+
+.jogos-brilho2 {
+    width: 45vw;
+    top: 65%;
+    left: 50%;
     z-index: 3;
 }
 
