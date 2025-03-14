@@ -90,9 +90,23 @@ p {
 
 .abertura-taça-2 {
     width: 45vw;
-    top: -2%;
+    top: 5%;
     left: 55%;
     z-index: 2;
+}
+
+.abertura-brilho {
+    width: 45vw;
+    top: 50%;
+    left: 3%;
+    z-index: 5;
+}
+
+.abertura-brilho2 {
+    width: 45vw;
+    top: 50%;
+    left: 53%;
+    z-index: 5;
 }
 
 .botoes {
