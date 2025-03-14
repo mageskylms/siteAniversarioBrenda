@@ -280,27 +280,27 @@ p {
 .traje-bota {
     width: 10%;
     top: 35%;
-    left: 7%;
+    left: 5%;
     z-index: 1;
 }
 
 .traje-gravata {
     width: 15%;
-    top: 40%;
+    top: 35%;
     left: 82%;
     z-index: 1;
 }
 
 .traje-brilho {
     width: 45vw;
-    top: 65%;
+    top: 64%;
     left: 4%;
     z-index: 3;
 }
 
 .traje-brilho2 {
     width: 45vw;
-    top: 65%;
+    top: 64%;
     left: 50%;
     z-index: 3;
 }
@@ -356,14 +356,14 @@ p {
 
 .bebida-brilho {
     width: 45vw;
-    top: 65%;
+    top: 63%;
     left: 4%;
     z-index: 3;
 }
 
 .bebida-brilho2 {
     width: 45vw;
-    top: 65%;
+    top: 63%;
     left: 50%;
     z-index: 3;
 }
@@ -472,16 +472,16 @@ p {
 }
 
 .local-onibus {
-    width: 22%;
-    top: -8%;
+    width: 15%;
+    top: 3%;
     left: 4%;
     z-index: 1;
 }
 
 .local-mapa {
-    width: 18%;
-    top: -7%;
-    left: 78%;
+    width: 13%;
+    top: 1%;
+    left: 83%;
     z-index: 1;
 }
 
@@ -494,15 +494,15 @@ p {
 
 .local-carro {
     width: 20%;
-    top: 22%;
+    top: 23%;
     left: 77%;
     z-index: 1;
 }
 
 .local-linhas {
     width: 35%;
-    top: 27%;
-    left: -8%;
+    top: 25%;
+    left: -6%;
     z-index: 0;
 }
 
