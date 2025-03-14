@@ -2,21 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
 :root {
     --font-titulos: "Whisper", cursive;
     --font-weigth-titulos: 600;
     --font-paragrafos: font-family: "Cardo", serif;
-    --font-weigth-paragrafos: 400;
+    --font-weigth-paragrafos: 500;
     --cinza: #332d2df3;
+    --azul-marinho: #003366;
+}
+
+body {
+    margin: 0;
 }
 
 h1,
 h2,
 h3,
 p,
-img, div, section {
+img,
+div,
+section {
     margin: 0;
+}
+
+h2 {
+    padding: 0 4rem;
+    font-family: var(--font-titulos);
+    font-weight: var(--font-weigth-titulos);
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: var(--font-paragrafos);
+    font-weight: var(--font-weigth-paragrafos);
+    font-size: 1.1rem;
+    padding: 0 5rem;
+    color: var(--cinza);
 }
 
 .fundo1 {
@@ -28,74 +51,69 @@ img, div, section {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    z-index: -2;
+    z-index: -1;
 }
 
 .abertura-container {
-    display: flex;
     position: relative;
     width: 100vw;
-    min-height: 280px;
+    min-height: 35vh;
+    margin: 0;
 }
 
 .img-abertura {
-    width: 100%;
-    height: 100%;
     position: absolute;
 }
 
 .abertura-laço {
-    width: 70%;
-    height: auto;
-    top: 40%;
+    width: 70vw;
+    top: -5%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     z-index: 1;
 }
 
 .abertura-texto {
-    width: 50%;
-    height: auto;
-    top: 50%;
+    width: 60vw;
+    top: 5%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     z-index: 2;
 }
 
 .abertura-taça {
-    width: 45%;
-    height: auto;
-    top: 5%;
-    left: -8%;
+    width: 44vw;
+    top: 18%;
+    left: -12%;
     z-index: 2;
 }
 
 .abertura-taça-2 {
-    width: 60%;
-    height: auto;
-    top: 0%;
-    left: 50%;
+    width: 45vw;
+    top: -2%;
+    left: 55%;
     z-index: 2;
 }
 
 .botoes {
-    padding: 0;
-    margin: 10px;
     display: flex;
     justify-content: center;
     list-style: none;
+    padding: 0;
+    margin: 10px;
     gap: 10px;
 }
 
 .botoes-item a {
     text-decoration: none;
     color: white;
+
 }
 
 .botoes-item {
-    font-size: 11px;
-    min-width: 60px;
-    min-height: 25px;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    font-size: 1rem;
     align-content: center;
     text-align: center;
     background-color: black;
@@ -105,27 +123,21 @@ img, div, section {
 .infos {
     position: relative;
     text-align: center;
-    min-height: 280px;
-}
-
-.titulo-festa {
-    padding: 0 70px;
-    font-family: var(--font-titulos);
-    font-weight: var(--font-weigth-titulos);
-    font-size: 9vw;
+    min-height: 28vh;
+    margin-bottom: 4rem;
 }
 
 .infos h3 {
-    margin-top: 16px;
+    margin-top: 1em;
     font-family: "Homemade Apple", cursive;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 1em;
 }
 
 .infos .data {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
 }
 
 .img-infos {
@@ -133,306 +145,278 @@ img, div, section {
 }
 
 .info-taça3 {
-    width: 120px;
-    top: 55px;
-    left: -38px;
-    z-index: -1;
+    width: 30%;
+    top: 28%;
+    left: -5%;
+    z-index: 1;
 }
 
 .info-taca4 {
-    width: 120px;
-    top: 35px;
-    left: 275px;
-    z-index: -1;
+    width: 35%;
+    top: 35%;
+    left: 64%;
+    z-index: 1;
 }
 
 .info-laco-preto {
-    width: 55px;
-    top: 170px;
-    left: 160px;
-    z-index: -1;
+    width: 16%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
 }
 
 .tema {
     position: relative;
     text-align: center;
-    min-height: 260px;
+    min-height: 35vh;
+    margin-bottom: 4rem;
 }
 
 .titulo-tema {
-    text-align: center;
-    font-family: var(--font-titulos);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .tema p {
-    font-family: var(--font-paragrafos);
-    font-weight: var(--font-weigth-paragrafos);
-    font-size: 16px;
-    padding: 0 35px;
-    color: var(--cinza);
+    padding: 0 4rem;
 }
 
 .img-tema {
     position: absolute;
-    width: 150px;
-    top: 150px;
-    left: -25px;
-    z-index: -1;
+}
+
+.tema-taca-5 {
+    width: 50%;
+    top: 50%;
+    left: -13%;
+    z-index: 1;
 }
 
 .tema-laco-preto {
-    position: absolute;
-    width: 55px;
-    top: 210px;
-    left: 160px;
-    z-index: -1;
+    width: 16%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
 }
 
 .traje {
     position: relative;
     text-align: center;
-    min-height: 250px;
+    min-height: 30vh;
+    margin-bottom: 4rem;
 }
 
 .titulo-traje {
-    text-align: center;
-    font-family: var(--font-titulos);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .traje p {
-    margin-top: 10px;
-    font-family: var(--font-paragrafos);
-    font-weight: var(--font-weigth-paragrafos);
-    font-size: 16px;
-    padding: 0 50px;
-    color: var(--cinza);
+    padding: 0 4rem;
+}
+
+.img-traje {
+    position: absolute;
 }
 
 .traje-vestido {
-    position: absolute;
-    width: 100px;
-    top: -60px;
-    left: 270px;
-    z-index: -1;
-    overflow: hidden;
+    width: 25%;
+    top: -25%;
+    left: 75%;
+    z-index: 1;
 }
 
 .traje-vestido2 {
-    position: absolute;
-    width: 80px;
-    top: 150px;
-    left: 0px;
-    z-index: -1;
+    width: 20%;
+    top: 75%;
+    left: 3%;
+    z-index: 1;
 }
 
 .traje-bota {
-    position: absolute;
-    width: 45px;
-    top: 85px;
-    left: 0px;
-    z-index: -1;
+    width: 15%;
+    top: 28%;
+    left: 1%;
+    z-index: 1;
 }
 
 .traje-gravata {
-    position: absolute;
-    width: 100px;
-    top: 85px;
-    left: 280px;
-    z-index: -1;
+    width: 20%;
+    top: 30%;
+    left: 80%;
+    z-index: 1;
 }
 
 .traje-laco-preto {
-    position: absolute;
-    width: 55px;
-    top: 180px;
-    left: 160px;
-    z-index: -1;
+    width: 16%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
 }
 
 .bebida {
     position: relative;
     text-align: center;
-    min-height: 270px;
+    min-height: 30vh;
+    margin-bottom: 4rem;
 }
 
 .titulo-bebida {
-    text-align: center;
-    font-family: var(--font-titulos);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .bebida p {
-    margin-top: 10px;
-    font-family: var(--font-paragrafos);
-    font-weight: var(--font-weigth-paragrafos);
-    font-size: 16px;
-    padding: 0 50px;
-    color: var(--cinza);
+    padding: 0 5rem;
+}
+
+.img-bebida {
+    position: absolute;
 }
 
 .bebida-taca {
-    position: absolute;
-    width: 80px;
-    top: -30px;
-    left: 280px;
-    z-index: -1;
-    overflow: hidden;
+    width: 25%;
+    top: -16%;
+    left: 75%;
+    z-index: 1;
 }
 
 .bebida-tacas {
-    position: absolute;
-    width: 100px;
-    top: 125px;
-    left: -15px;
+    width: 25%;
+    top: 60%;
+    left: 0%;
     z-index: -1;
     overflow: hidden;
 }
 
 .bebida-copo {
-    position: absolute;
-    width: 130px;
-    top: 125px;
-    left: 245px;
-    z-index: -1;
-    overflow: hidden;
+    width: 35%;
+    top: 50%;
+    left: 65%;
+    z-index: 1;
 }
 
 .bebida-laco-preto {
-    position: absolute;
-    width: 55px;
-    top: 180px;
-    left: 160px;
-    z-index: -1;
+    width: 16%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
 }
 
-.jogos{
+.jogos {
     position: relative;
     text-align: center;
-    min-height: 250px;
+    min-height: 30vh;
+    margin-bottom: 4rem;
 }
 
 .titulo-jogos {
-    text-align: center;
-    font-family: var(--font-titulos);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .jogos p {
-    margin-top: 10px;
-    font-family: var(--font-paragrafos);
-    font-weight: var(--font-weigth-paragrafos);
-    font-size: 16px;
-    padding: 0 50px;
-    color: var(--cinza);
+    padding: 0 5rem;
+}
+
+.img-jogos {
+    position: absolute;
 }
 
 .jogos-controle {
-    position: absolute;
-    width: 55px;
-    top: 0px;
-    left: 300px;
-    z-index: -1;
+    width: 16%;
+    top: 0%;
+    left: 80%;
+    z-index: 1;
 }
 
 .jogos-piao {
-    position: absolute;
-    width: 40px;
-    top: 75px;
-    left: 15px;
-    z-index: -1;
+    width: 14%;
+    top: 15%;
+    left: 5%;
+    z-index: 1;
 }
 
 .jogos-dados {
-    position: absolute;
-    width: 65px;
-    top: 150px;
-    left: 15px;
-    z-index: -1;
+    width: 18%;
+    top: 60%;
+    left: 4%;
+    z-index: 1;
 }
 
 .jogos-cartas {
-    position: absolute;
-    width: 65px;
-    top: 120px;
-    left: 300px;
-    z-index: -1;
+    width: 16%;
+    top: 50%;
+    left: 82%;
+    z-index: 1;
 }
 
 .jogos-laco-preto {
-    position: absolute;
-    width: 55px;
-    top: 180px;
-    left: 160px;
-    z-index: -1;
+    width: 16%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
 }
 
 
-.local{
+.local {
     position: relative;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .titulo-local {
-    text-align: center;
-    font-family: var(--font-titulos);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .local p {
-    margin-top: 10px;
-    font-family: var(--font-paragrafos);
-    font-weight: var(--font-weigth-paragrafos);
-    font-size: 16px;
-    padding: 0 35px;
-    color: var(--cinza);
+    padding: 0 3.7rem;
+}
+
+.img-local {
+    position: absolute;
 }
 
 .local-onibus {
-    position: absolute;
-    width: 80px;
-    top: 25px;
-    left: 0px;
-    z-index: -1;
+    width: 22%;
+    top: -5%;
+    left: 4%;
+    z-index: 1;
 }
 
 .local-mapa {
-    position: absolute;
-    width: 60px;
-    top: -10px;
-    left: 280px;
-    z-index: -1;
+    width: 20%;
+    top: -6%;
+    left: 77%;
+    z-index: 1;
 }
 
 .local-brilho {
-    position: absolute;
-    width: 80px;
-    top: -10px;
-    left: 260px;
-    z-index: -1;
+    width: 20%;
+    top: -6%;
+    left: 77%;
+    z-index: 1;
 }
 
 .local-carro {
-    position: absolute;
-    width: 65px;
-    top: 65px;
-    left: 300px;
-    z-index: -1;
+    width: 20%;
+    top: 20%;
+    left: 77%;
+    z-index: 1;
 }
 
-.local-laco-preto {
-    position: absolute;
-    width: 55px;
-    top: 180px;
-    left: 160px;
-    z-index: -1;
+.local-linhas {
+    width: 35%;
+    top: 20%;
+    left: -7%;
+    z-index: 0;
 }
 
 .mapa-container {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 3rem 0 1rem 0;
 }
 
 #mapa {
@@ -441,8 +425,22 @@ img, div, section {
     border-radius: 16px;
 }
 
-#local h2 {
-    text-align: center;
+.frase-final {
+    display: flex;
+    justify-content: center;
     font-family: var(--font-titulos);
     font-size: 40px;
+}
+
+footer {
+    padding: 0.5em;
+    text-align: center;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--azul-marinho);
 }
