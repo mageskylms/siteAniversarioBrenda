@@ -137,9 +137,12 @@ p {
 }
 
 .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     text-align: center;
-    min-height: 45vh;
+    min-height: 100vh;
     margin-top: 3.5rem;
     margin-bottom: 4rem;
 }
@@ -175,20 +178,6 @@ p {
     z-index: 1;
 }
 
-.info-brilho {
-    width: 45vw;
-    top: 75%;
-    left: -3%;
-    z-index: 3;
-}
-
-.info-brilho2 {
-    width: 45vw;
-    top: 80%;
-    left: 53%;
-    z-index: 3;
-}
-
 .info-laco-preto {
     width: 16%;
     top: 80%;
@@ -198,9 +187,12 @@ p {
 }
 
 .tema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     text-align: center;
-    min-height: 50vh;
+    min-height: 100vh;
     margin-bottom: 4rem;
 }
 
@@ -218,23 +210,9 @@ p {
 
 .tema-taca-5 {
     width: 50%;
-    top: 50%;
+    top: 60%;
     left: -13%;
     z-index: 1;
-}
-
-.tema-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
-    z-index: 3;
-}
-
-.tema-brilho2 {
-    width: 50vw;
-    top: 80%;
-    left: 53%;
-    z-index: 3;
 }
 
 .tema-laco-preto {
@@ -265,45 +243,31 @@ p {
 }
 
 .traje-vestido {
-    width: 15%;
-    top: -6%;
+    width: 18%;
+    top: -15%;
     left: 82%;
     z-index: 1;
 }
 
 .traje-vestido2 {
-    width: 15%;
-    top: 60%;
+    width: 20%;
+    top: 75%;
     left: 3%;
     z-index: 1;
 }
 
 .traje-bota {
-    width: 10%;
-    top: 35%;
-    left: 7%;
+    width: 15%;
+    top: 28%;
+    left: 1%;
     z-index: 1;
 }
 
 .traje-gravata {
-    width: 15%;
+    width: 20%;
     top: 40%;
-    left: 82%;
+    left: 78%;
     z-index: 1;
-}
-
-.traje-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
-    z-index: 3;
-}
-
-.traje-brilho2 {
-    width: 50vw;
-    top: 80%;
-    left: 53%;
-    z-index: 3;
 }
 
 .traje-laco-preto {
@@ -334,15 +298,15 @@ p {
 }
 
 .bebida-taca {
-    width: 15%;
-    top: -3%;
-    left: 83%;
+    width: 25%;
+    top: -16%;
+    left: 75%;
     z-index: 1;
 }
 
 .bebida-tacas {
     width: 25%;
-    top: 50%;
+    top: 60%;
     left: 0%;
     z-index: -1;
     overflow: hidden;
@@ -350,23 +314,9 @@ p {
 
 .bebida-copo {
     width: 35%;
-    top: 45%;
+    top: 50%;
     left: 65%;
     z-index: 1;
-}
-
-.bebida-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
-    z-index: 3;
-}
-
-.bebida-brilho2 {
-    width: 50vw;
-    top: 80%;
-    left: 53%;
-    z-index: 3;
 }
 
 .bebida-laco-preto {
@@ -397,9 +347,9 @@ p {
 }
 
 .jogos-controle {
-    width: 10%;
-    top: 5%;
-    left: 85%;
+    width: 16%;
+    top: 10%;
+    left: 80%;
     z-index: 1;
 }
 
@@ -422,20 +372,6 @@ p {
     top: 50%;
     left: 82%;
     z-index: 1;
-}
-
-.jogos-copo {
-    width: 35%;
-    top: 45%;
-    left: 65%;
-    z-index: 1;
-}
-
-.jogos-brilho {
-    width: 50vw;
-    top: 80%;
-    left: -3%;
-    z-index: 3;
 }
 
 .jogos-laco-preto {
